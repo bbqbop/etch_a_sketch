@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <h1>Etch-a-Sketch</h1>
+    </div>
+
+    <div class="body">
+        <div class="menu">
+            <div class="menuLeft">
+                <label for="gridSize">Choose Grid Size</label>
+                <select name="gridSize" id="gridSize">
+                    <option value="16">16x16</option>
+                    <option value="32">32x32</option>
+                    <option value="64">64x64</option>
+                </select>   
+            </div> 
+            <button id="btnClear">CLEAR</button>
+            <div class="menuRight">
+                <label for="chooseColor">Choose Color</label>
+                <select name="chooseColor" id="chooseColor">
+                    <option value="black">Black</option>
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="blue">Blue</option>
+                    <option value="random">Random</option>
+                    <option value="rainbow">Rainbow</option>
+                </select>
+            </div>
+        </div>
+        <div class="container">
+        </div>
+    </div>
+
+    <div class="footer">Copyright © 2023 Dierk Peters</div>
+</body>
+</html>
